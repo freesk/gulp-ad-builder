@@ -4,10 +4,10 @@ This a Gulp setup that can pack scripts, styles and images into one html file
 #### Operational System
 Ubuntu 16.04
 #### Required Software
-g++-5
-python2.7
-node v6.0.0
-npm v3.8.6
+g++-5  
+python2.7  
+node v6.0.0  
+npm v3.8.6  
 ## Pre-build configuration
 ```sh
 npm config set python path_to_python
