@@ -1,0 +1,36 @@
+.vertical-align-md > a,
+.vertical-align-md > p,
+.vertical-align-md > img,
+.vertical-align-md > div,
+.vertical-align-md > span,
+.vertical-align-md::before {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vertical-align-bm > a,
+.vertical-align-bm > p,
+.vertical-align-bm > img,
+.vertical-align-bm > div,
+.vertical-align-bm > span,
+.vertical-align-bm::before {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.vertical-align-tp > a,
+.vertical-align-tp > p,
+.vertical-align-tp > img,
+.vertical-align-tp > div,
+.vertical-align-tp > span,
+.vertical-align-tp::before {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div[class^="vertical-align"]::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  margin-right: -0.3em;
+}
